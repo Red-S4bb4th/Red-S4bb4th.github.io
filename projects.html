@@ -3,140 +3,85 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-  <!-- Change this to your project name -->
-  <title>Project Name — Your Name</title>
-
-  <!-- Two levels deep from root, so ../../styles.css -->
-  <link rel="stylesheet" href="../../styles.css" />
+  <title>Projects — Your Name</title>
+  <link rel="stylesheet" href="styles.css" />
 </head>
 
 <body>
 
-  <!-- NAV -->
   <nav>
     <div class="nav-row">
-      <a href="/" class="site-name">Your Name</a>
+      <a href="index.html" class="site-name">Your Name</a>
       <ul class="nav-links">
-        <li><a href="/">Home</a></li>
-        <li><a href="/projects/" class="active">Projects</a></li>
-        <li><a href="/blog/">Blog</a></li>
-        <li><a href="/misc/">Misc</a></li>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="projects.html" class="active">Projects</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="misc.html">Misc</a></li>
       </ul>
     </div>
   </nav>
 
-
   <main>
     <div class="wrapper">
 
-
-      <!-- BREADCRUMB — shows where you are: Projects > This Project -->
-      <p class="breadcrumb">
-        <a href="/projects/">Projects</a> / Project Name
+      <h1>Projects</h1>
+      <p style="margin-top: 0.75rem;">
+        Things I've built, tinkered with, or am currently working on.
       </p>
-
-
-      <!-- =====================================================
-           OVERVIEW SECTION
-           Fill this in with info about your project.
-           You can add or remove <p> tags as needed.
-           ===================================================== -->
-
-      <h1>Project Name</h1>
-      <span class="status-tag status-active">Active</span>
-
-      <p style="margin-top: 1rem;">
-        Write a general overview of this project here. What is it? What are
-        you trying to build or achieve? This doesn't need to be long —
-        just enough for someone (or future you) to understand what this is.
-      </p>
-
-      <p>
-        You can add more paragraphs if you want. Talk about the goal,
-        the tools you're using, what problem it solves, whatever feels right.
-      </p>
-
-      <!-- OVERVIEW DETAILS — a small grid of quick facts -->
-      <div class="project-details">
-
-        <!-- Each .detail-row is one line. Add or remove rows freely. -->
-        <div class="detail-row">
-          <span class="detail-label">Started</span>
-          <span class="detail-value">January 2026</span>
-        </div>
-
-        <div class="detail-row">
-          <span class="detail-label">Status</span>
-          <span class="detail-value">In progress</span>
-        </div>
-
-        <div class="detail-row">
-          <span class="detail-label">Tools</span>
-          <span class="detail-value">Whatever you're using</span>
-        </div>
-
-        <!-- Add more rows by copying a .detail-row block -->
-
-      </div>
-
 
       <hr />
 
 
       <!-- =====================================================
-           DEV LOG SECTION
-           Entries go newest at the top, oldest at the bottom.
-           To add a new entry: copy one .log-entry block
-           and paste it at the TOP of the list below.
+           PROJECT ENTRY
+           To add a new project: copy everything between the
+           dashed lines and paste it above the others.
            ===================================================== -->
 
-      <p class="label">Dev Log</p>
-      <h2 style="margin-bottom: 1.5rem;">Notes & progress</h2>
-
+      <div class="project-entry">
+        <a href="projects/project-one.html" class="project-title">Project One Title</a>
+        <!-- Status options: class="status-tag status-active"
+                             class="status-tag status-done"
+                             class="status-tag status-paused" -->
+        <span class="status-tag status-active">Active</span>
+        <p class="project-meta">Started January 2026</p>
+        <p class="project-desc">
+          A short description of what this project is. One or two sentences is plenty.
+        </p>
+        <a href="projects/project-one.html" class="project-link">View project →</a>
+      </div>
 
       <!-- - - - - - - - - - - - - - - - - - - - - - - - - - -
-           COPY THIS WHOLE BLOCK TO ADD A NEW LOG ENTRY
-           Paste it above the previous entry (newest at top)
+           COPY FROM HERE TO ADD ANOTHER PROJECT
            - - - - - - - - - - - - - - - - - - - - - - - - - - -->
-      <div class="log-entry">
-        <p class="log-date">March 9, 2026</p>
-        <h3 class="log-title">Entry title or leave blank</h3>
-        <p>
-          Write your dev log entry here. This can be as long or as short
-          as you want. You write as your thoughts come — that's fine.
-          Just keep adding paragraphs below.
+      <div class="project-entry">
+        <a href="projects/project-two.html" class="project-title">Project Two Title</a>
+        <span class="status-tag status-done">Done</span>
+        <p class="project-meta">Finished February 2026</p>
+        <p class="project-desc">
+          A short description of this project.
         </p>
-        <p>
-          Add as many paragraphs as you need. There's no structure required.
-          Just write.
-        </p>
+        <a href="projects/project-two.html" class="project-link">View project →</a>
       </div>
-      <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - -->
-
 
       <!-- - - - - - - - - - - - - - - - - - - - - - - - - - -
-           COPY THIS WHOLE BLOCK TO ADD A NEW LOG ENTRY
+           COPY FROM HERE TO ADD ANOTHER PROJECT
            - - - - - - - - - - - - - - - - - - - - - - - - - - -->
-      <div class="log-entry">
-        <p class="log-date">February 20, 2026</p>
-        <h3 class="log-title">Another entry title</h3>
-        <p>
-          An older entry. Paste new entries above this one so the
-          newest always appears at the top.
+      <div class="project-entry">
+        <a href="projects/project-three.html" class="project-title">Project Three Title</a>
+        <span class="status-tag status-paused">Paused</span>
+        <p class="project-meta">Started March 2026</p>
+        <p class="project-desc">
+          A short description of this project.
         </p>
+        <a href="projects/project-three.html" class="project-link">View project →</a>
       </div>
-      <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - -->
 
-
-      <!-- PASTE NEW LOG ENTRIES ABOVE THIS LINE -->
-
+      <!-- PASTE NEW PROJECTS ABOVE THIS LINE -->
 
     </div>
   </main>
 
-
-  <!-- FOOTER -->
   <footer>
     <div class="wrapper">
       <p>© 2026 Your Name</p>
