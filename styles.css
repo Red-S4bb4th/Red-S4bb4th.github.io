@@ -23,7 +23,7 @@
   --border:      #2e2e2e;   /* lines and borders */
   --crimson:     #9b0000;   /* main accent color */
   --white:       #e2d9d9;   /* main text (slightly warm, easier on eyes) */
-  --grey-text:   #8a8080;   /* muted / secondary text */
+  
 }
 
 
@@ -68,7 +68,7 @@ h2 { font-size: 1.5rem; }
 h3 { font-size: 1.2rem; }
 
 p {
-  color: var(--grey-text);
+  color: var(--white);
   margin-bottom: 1rem;
 }
 
@@ -131,7 +131,7 @@ nav {
 
 .nav-links a {
   font-size: 0.9rem;
-  color: var(--grey-text);
+  color: var(--white);
   text-decoration: none;
 }
 
@@ -190,13 +190,13 @@ main {
 
 .card-date {
   font-size: 0.8rem;
-  color: var(--grey-text);
+  color: var(--white);
   margin-bottom: 0.5rem;
 }
 
 .card-desc {
   font-size: 0.95rem;
-  color: var(--grey-text);
+  color: var(--white);
   margin: 0;
 }
 
@@ -224,12 +224,12 @@ main {
 /* The "Projects / Project Name" line at the top of a project page */
 .breadcrumb {
   font-size: 0.8rem;
-  color: var(--grey-text);
+  color: var(--white);
   margin-bottom: 1.2rem;
 }
 
 .breadcrumb a {
-  color: var(--grey-text);
+  color: var(--white);
   text-decoration: none;
 }
 
@@ -254,7 +254,7 @@ main {
 }
 
 .detail-label {
-  color: var(--grey-text);
+  color: var(--white);
   min-width: 80px; /* keeps values aligned in a column */
 }
 
@@ -287,7 +287,7 @@ main {
 
 .log-entry p {
   font-size: 0.95rem;
-  color: var(--grey-text);
+  color: var(--white);
   margin-bottom: 0.75rem;
 }
 
@@ -300,7 +300,7 @@ main {
 /* The written content inside a dev log entry page */
 
 .log-body p {
-  color: var(--grey-text);
+  color: var(--white);
   font-size: 1rem;
   margin-bottom: 1rem;
   max-width: 65ch; /* keeps lines readable — don't go wider than this */
@@ -341,7 +341,7 @@ main {
 
 .log-nav-link {
   font-size: 0.85rem;
-  color: var(--grey-text);
+  color: var(--white);
   text-decoration: none;
 }
 
@@ -394,13 +394,13 @@ main {
 
 /* Change these colors to whatever you like for each status */
 .status-active { background-color: var(--crimson);    color: var(--white); }
-.status-done   { background-color: var(--dark-grey);  color: var(--grey-text); border: 1px solid var(--border); }
+.status-done   { background-color: var(--dark-grey);  color: var(--white); border: 1px solid var(--border); }
 .status-paused { background-color: #2a2000;            color: #a08030; }
 
 /* The date line below the title */
 .project-meta {
   font-size: 0.8rem;
-  color: var(--grey-text);
+  color: var(--white);
   margin-top: 0.5rem;
   margin-bottom: 0.4rem;
 }
@@ -408,7 +408,7 @@ main {
 /* The short description */
 .project-desc {
   font-size: 0.95rem;
-  color: var(--grey-text);
+  color: var(--white);
   margin-bottom: 0.75rem;
 }
 
@@ -515,7 +515,7 @@ main {
 
 .gallery-caption {
   font-size: 0.8rem;
-  color: var(--grey-text);
+  color: var(--white);
   margin: 0;
 }
 
@@ -536,6 +536,6 @@ footer {
 
 footer p {
   font-size: 0.8rem;
-  color: var(--grey-text);
+  color: var(--white);
   margin: 0;
 }
