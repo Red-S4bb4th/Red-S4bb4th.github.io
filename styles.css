@@ -87,7 +87,7 @@ hr {
 /* Centers your content and caps the width.
    Wrap your page content in <div class="wrapper"> */
 .wrapper {
-  max-width: 700px;
+  max-width: 1000px;
   margin: 0 auto;
   padding: 0 1.5rem;
 }
