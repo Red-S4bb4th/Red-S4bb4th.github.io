@@ -414,7 +414,7 @@ main {
 
 /* The "View project →" link */
 .project-link {
-  font-size: 0.85rem;
+  font-size: 1.25rem;
   color: var(--crimson);
   text-decoration: none;
 }
