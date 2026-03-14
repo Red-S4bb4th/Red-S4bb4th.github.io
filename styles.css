@@ -324,7 +324,7 @@ main {
 }
 
 .log-body li {
-  color: var(--grey-text);
+  color: var(--white);
   font-size: 1rem;
   margin-bottom: 0.3rem;
 }
