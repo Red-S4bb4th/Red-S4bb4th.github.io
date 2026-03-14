@@ -426,10 +426,12 @@ main {
 
 
 /* --- INLINE IMAGES --- */
-/* For inserting images anywhere outside the gallery.
-   Wrap your <img> in <div class="inline-img"> */
+/* Used for images inside blog posts, math notes, etc. */
 
 .inline-img {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
   margin: 1.5rem 0;
 }
 
@@ -437,6 +439,11 @@ main {
   width: 100%;
   border: 1px solid var(--border);
   display: block;
+}
+
+/* If text appears under images, span across both columns */
+.inline-img p {
+  grid-column: span 2;
 }
 
 /* Half-width version — add class="inline-img inline-img-small" */
@@ -523,6 +530,18 @@ main {
 @media (max-width: 520px) {
   .gallery-grid {
     grid-template-columns: 1fr;
+  }
+}
+
+/* --- MOBILE IMAGE LAYOUT --- */
+
+@media (max-width: 600px) {
+  .inline-img {
+    grid-template-columns: 1fr;
+  }
+
+  .inline-img p {
+    grid-column: span 1;
   }
 }
 
