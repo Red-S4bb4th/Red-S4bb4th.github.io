@@ -426,24 +426,24 @@ main {
 
 
 /* --- INLINE IMAGES --- */
-/* Used for images inside blog posts, math notes, etc. */
+/* Images and paragraphs always stack vertically */
 
 .inline-img {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 1rem;
+  display: block;        /* removes grid completely */
   margin: 1.5rem 0;
 }
 
 .inline-img img {
-  width: 100%;
+  display: block;        /* ensures each image is on its own line */
+  width: 100%;           /* images scale to container width */
   border: 1px solid var(--border);
-  display: block;
+  margin-bottom: 1rem;   /* spacing between images and text */
 }
 
-/* If text appears under images, span across both columns */
 .inline-img p {
-  grid-column: span 2;
+  display: block;        /* paragraph below all images */
+  margin-bottom: 0;
+  max-width: 65ch;       /* keeps text readable */
 }
 
 /* Half-width version — add class="inline-img inline-img-small" */
