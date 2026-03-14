@@ -474,7 +474,7 @@ main {
 
 
 /* --- WORKBENCH ITEMS --- */
-/* Each item on the workbench page */
+
 .workbench-item {
   padding: 2rem 0;
   border-bottom: 1px solid var(--border);
@@ -487,6 +487,10 @@ main {
 .workbench-title {
   font-size: 1.3rem;
   margin-bottom: 0.75rem;
+}
+
+.workbench-item p {
+  max-width: 65ch;
 }
 
 /* The optional image inside a workbench item */
