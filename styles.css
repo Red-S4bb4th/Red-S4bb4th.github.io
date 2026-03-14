@@ -539,10 +539,6 @@ main {
   .inline-img {
     width: 95%;
   }
-
-  .inline-img p {
-    grid-column: span 1;
-  }
 }
 
 
