@@ -536,7 +536,7 @@ main {
 /* --- MOBILE IMAGE LAYOUT --- */
 
 @media (max-width: 600px) {
-  .inline-img {
+  .inline-img img {
     width: 95%;
   }
 }
