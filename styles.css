@@ -443,7 +443,6 @@ main {
 .inline-img p {
   display: block;
   margin-bottom: 0;
-  max-width: 100%;   /* ← add this line */
 }
 
 /* Half-width version — add class="inline-img inline-img-small" */
