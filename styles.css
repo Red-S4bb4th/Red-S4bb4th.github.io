@@ -443,7 +443,6 @@ main {
 .inline-img p {
   display: block;        /* paragraph below all images */
   margin-bottom: 0;
-  max-width: 65ch;       /* keeps text readable */
 }
 
 /* Half-width version — add class="inline-img inline-img-small" */
