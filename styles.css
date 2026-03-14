@@ -435,7 +435,7 @@ main {
 
 .inline-img img {
   display: block;        /* ensures each image is on its own line */
-  width: 100%;           /* images scale to container width */
+  width: 75%;           /* images scale to container width */
   border: 1px solid var(--border);
   margin-bottom: 1rem;   /* spacing between images and text */
 }
