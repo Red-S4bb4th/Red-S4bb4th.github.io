@@ -434,15 +434,16 @@ main {
 }
 
 .inline-img img {
-  display: block;        /* ensures each image is on its own line */
-  width: 75%;           /* images scale to container width */
+  display: block;
+  width: 75%;
   border: 1px solid var(--border);
-  margin-bottom: 1rem;   /* spacing between images and text */
+  margin: 0 auto 1rem;   /* ← replace margin-bottom: 1rem with this */
 }
 
 .inline-img p {
-  display: block;        /* paragraph below all images */
+  display: block;
   margin-bottom: 0;
+  max-width: 100%;   /* ← add this line */
 }
 
 /* Half-width version — add class="inline-img inline-img-small" */
