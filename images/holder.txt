@@ -1,0 +1,1 @@
+This is just a holder so that this "images" folder doesnt disappear if i need to delete images
