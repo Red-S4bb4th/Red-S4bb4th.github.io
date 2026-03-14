@@ -488,9 +488,6 @@ main {
   margin-bottom: 0.75rem;
 }
 
-.workbench-item p {
-  max-width: 65ch;
-}
 
 /* The optional image inside a workbench item */
 .workbench-img {
